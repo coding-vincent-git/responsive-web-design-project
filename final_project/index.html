@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earth's Perspective | Solar System Archive</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+</head>
+
+<body>
+    <header id="top">
+        <h1>Solar System Archive</h1>
+        <p>Earth: Our Unique Place in the Cosmos</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" class="active">Home: Earth</a></li>
+            <li><a href="planets.html">The 8 Planets</a></li>
+            <li><a href="#credits">Sources</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="hero-section">
+            <img src="images/earth-large.jpg" srcset="images/earth-small.jpg 400w, 
+                         images/earth-medium.jpg 800w, 
+                         images/earth-large.jpg 1200w" sizes="(max-width: 600px) 100vw, 800px" width="1200"
+                height="837" alt="Earth seen from space, highlighting its atmosphere and oceans" class="responsive-img">
+
+            <h2>The Goldilocks Zone</h2>
+            <p>Earth is the third planet from the Sun. It is the only planet we know of that has life on it.
+                Because it sits in the "habitable zone," the temperature is right for liquid water to exist on
+                the surface. Earth is not the biggest planet overall—it ranks fifth in size—but it is the
+                largest of the four rocky planets near the Sun. It is just a bit bigger than Venus, and like
+                Mercury and Mars, it is made of rock and metal.</p>
+
+            <h2>Size, Distance, and Orbit</h2>
+            <p>Earth measures about 7,926 miles (12,756 km) across at the equator. It orbits the Sun at an
+                average distance of 93 million miles (150 million km), which is the distance scientists use as
+                one Astronomical Unit (AU). Light from the Sun takes roughly eight minutes to reach us.</p>
+            <p>Our planet rotates once every 23.9 hours and takes 365.25 days to go around the Sun. Its axis
+                is tilted at about 23.4 degrees, which is why we have different seasons throughout the year.</p>
+
+            <h2>Atmosphere and Protection</h2>
+            <p>The air around Earth is mostly nitrogen (78%) and oxygen (21%), with small amounts of argon,
+                carbon dioxide, and neon. This atmosphere keeps the climate stable, creates the weather we
+                experience every day, blocks harmful radiation from the Sun, and burns up most meteoroids before
+                they can hit the ground.</p>
+        </section>
+
+        <section id="earth-stats">
+            <h3>Earth's Vital Signs</h3>
+            <p>Click below to reveal key data about our home planet:</p>
+            <div class="flex-container">
+                <button id="btn-position">Show Position</button>
+                <button id="btn-distance">Show Distance</button>
+            </div>
+            <p id="earth-info" class="info-box">Select a stat to display...</p>
+        </section>
+    </main>
+
+    <footer id="credits">
+        <div class="footer-content">
+            <div class="attributions">
+                <h3>Credits & Attributions</h3>
+                <p><strong>Data:</strong> Scientific facts adapted from <a href="https://science.nasa.gov/solar-system/"
+                        target="_blank">NASA</a>.</p>
+                <p><strong>Earth Image:</strong> Sourced from <a href="https://www.sohu.com/a/747104698_121314565"
+                        target="_blank">Sohu</a>.</p>
+                <p><strong>8 Planets Image:</strong> Sourced from <a href="https://news.pts.org.tw/article/616318"
+                        target="_blank">PTS News</a>.</p>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 Solar System Archive by Gaohong Chen. <a href="#top">Top &uarr;</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

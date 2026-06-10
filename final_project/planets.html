@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The 8 Planets | Solar System Archive</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+</head>
+
+<body>
+    <header id="top">
+        <h1>The 8 Planets</h1>
+        <p>A Scientific Survey of Our Planetary Neighbors</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home: Earth</a></li>
+            <li><a href="planets.html" class="active">The 8 Planets</a></li>
+            <li><a href="index.html#credits">Sources</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="hero-section">
+            <img src="images/planets-large.jpg" srcset="images/planets-small.jpg 400w, 
+                         images/planets-medium.jpg 800w, 
+                         images/planets-large.jpg 1200w" sizes="(max-width: 600px) 100vw, 800px" width="1200"
+                height="800"
+                alt="Illustration of the eight planets of the solar system arranged in order: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune"
+                class="responsive-img">
+
+            <h2>Diversity of Worlds</h2>
+            <p>There are eight planets in our solar system, along with five dwarf planets. They are all part of
+                the Orion Arm, which is one of the outer branches of the Milky Way galaxy. These planets are very
+                different from each other—Mercury is small and covered in craters, while Neptune is freezing cold
+                with powerful winds. Besides the planets, there are also over 290 moons, more than 1.3 million
+                asteroids, and about 3,900 comets in the solar system.</p>
+
+            <article>
+                <h3>Inner Terrestrial Planets</h3>
+                <p>Mercury, Venus, Earth, and Mars are the four planets closest to the Sun. They all have solid,
+                    rocky surfaces made of rock and metal. Mercury is the smallest planet and has almost no
+                    atmosphere, so its temperature changes a lot between day and night. Venus is close to Earth
+                    in size but much hotter because thick clouds trap the heat. Earth is the only planet with
+                    liquid water on the surface. Mars has a reddish color because of iron oxide (rust) in its
+                    soil, and scientists have found evidence of ancient rivers and ice caps there.</p>
+
+                <h3>Outer Gas &amp; Ice Giants</h3>
+                <p>Jupiter, Saturn, Uranus, and Neptune are much larger and do not have solid surfaces. Instead,
+                    they are made of thick layers of gas and liquid around a dense core. Jupiter is the biggest
+                    planet and has a famous storm called the Great Red Spot, which is larger than Earth. Saturn
+                    is known for its rings, which are made of ice and rock. Uranus and Neptune are called ice
+                    giants. Uranus spins on its side because of its extreme tilt, and Neptune has the fastest
+                    winds of any planet in the solar system.</p>
+            </article>
+        </section>
+
+        <section id="planet-stats">
+            <h3>Fun Fact</h3>
+            <p>Click the button to see a random fact about the planets:</p>
+            <div class="flex-container">
+                <button id="btn-fact">Show a Fact</button>
+            </div>
+            <p id="planet-info" class="info-box">Click the button above...</p>
+        </section>
+    </main>
+
+    <footer id="credits">
+        <div class="footer-content">
+            <div class="attributions">
+                <h3>Credits & Attributions</h3>
+                <p><strong>Data:</strong> Scientific facts adapted from <a href="https://science.nasa.gov/solar-system/"
+                        target="_blank">NASA</a>.</p>
+                <p><strong>Earth Image:</strong> Sourced from <a href="https://www.sohu.com/a/747104698_121314565"
+                        target="_blank">Sohu</a>.</p>
+                <p><strong>8 Planets Image:</strong> Sourced from <a href="https://news.pts.org.tw/article/616318"
+                        target="_blank">PTS News</a>.</p>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 Solar System Archive by Gaohong Chen. <a href="#top">Top &uarr;</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
